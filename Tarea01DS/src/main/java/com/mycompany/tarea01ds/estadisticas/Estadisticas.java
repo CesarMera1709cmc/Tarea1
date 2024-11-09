@@ -1,9 +1,10 @@
 package com.mycompany.tarea01ds.estadisticas;
 
-public abstract class Estadisticas {
+public interface Estadisticas {
+
     abstract public void evaluarEvento(); 
 
-    public void actualizarEstadisticas() {}
+    public void actualizarEstadisticas();
 
-    public void obtenerEstadisticas() {}
+    public void obtenerEstadisticas();
 }

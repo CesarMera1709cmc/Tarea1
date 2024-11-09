@@ -1,11 +1,23 @@
 package com.mycompany.tarea01ds.estadisticas;
 
-public class EstadisticasBaloncesto extends Estadisticas {
+public class EstadisticasBaloncesto implements Estadisticas {
 
     @Override
     public void evaluarEvento() {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'evaluarEvento'");
+    }
+
+    @Override
+    public void actualizarEstadisticas() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'actualizarEstadisticas'");
+    }
+
+    @Override
+    public void obtenerEstadisticas() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'obtenerEstadisticas'");
     }
     
 }
