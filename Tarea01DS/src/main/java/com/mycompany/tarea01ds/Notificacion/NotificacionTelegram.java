@@ -1,4 +1,4 @@
-package com.mycompany.tarea01ds;
+package com.mycompany.tarea01ds.Notificacion;
 
 public class NotificacionTelegram implements Notificación{
 
